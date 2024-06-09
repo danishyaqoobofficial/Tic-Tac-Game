@@ -13,38 +13,38 @@
     </style>
 </head>
 <body>
-    <main class="flex items-center justify-center bg-[#000] h-[100vh] w-full ">
-        <section>
-            <div class="flex items-center justify-center gap-[72px] "> 
-                <span class="text-[#fff] text-[14px] font-[400] flex items-center gap-[22px] firstUserText ">First User :
-                    <p class="text-sky-400 firstUserCount ">
-                        0
-                    </p>
-                </span> 
-                <span class="text-[#fff] text-[14px] font-[400] flex items-center gap-[22px] secondUserText ">Second User :
-                    <p class="text-sky-400 secondUserCount ">
-                        0
-                    </p>
-                </span>
-            </div>
-            <div class="w-[600px] mx-auto h-[500px] flex flex-col border-[2px] border-slate-300 mt-[22px] ">
-                <div class="flex flex-1 ">
-                    <div class="flex items-center justify-center border-[3px] border-slate-300 flex-1 userBox l1" onclick="userClick(this)" ></div>
-                    <div class="flex items-center justify-center border-[3px] border-slate-300 flex-1 userBox l2" onclick="userClick(this)" ></div>
-                    <div class="flex items-center justify-center border-[3px] border-slate-300 flex-1 userBox l3" onclick="userClick(this)" ></div>
+    <main class="flex items-center sm:justify-center bg-[#000] h-[100vh] w-full overflow-x-auto ">
+            <section>
+                <div class="flex items-center justify-center gap-[72px] "> 
+                    <span class="text-[#fff] text-[14px] font-[400] flex items-center gap-[22px] firstUserText ">First User :
+                        <p class="text-sky-400 firstUserCount ">
+                            0
+                        </p>
+                    </span> 
+                    <span class="text-[#fff] text-[14px] font-[400] flex items-center gap-[22px] secondUserText ">Second User :
+                        <p class="text-sky-400 secondUserCount ">
+                            0
+                        </p>
+                    </span>
                 </div>
-                <div class="flex flex-1 ">
-                    <div class="flex items-center justify-center border-[3px] border-slate-300 flex-1 userBox l4" onclick="userClick(this)" ></div>
-                    <div class="flex items-center justify-center border-[3px] border-slate-300 flex-1 userBox l5" onclick="userClick(this)" ></div>
-                    <div class="flex items-center justify-center border-[3px] border-slate-300 flex-1 userBox l6" onclick="userClick(this)" ></div>
+                <div class="w-[600px] mx-auto h-[500px] flex flex-col border-[2px] border-slate-300 mt-[22px] ">
+                    <div class="flex flex-1 ">
+                        <div class="flex items-center justify-center border-[3px] border-slate-300 flex-1 userBox l1" onclick="userClick(this)" ></div>
+                        <div class="flex items-center justify-center border-[3px] border-slate-300 flex-1 userBox l2" onclick="userClick(this)" ></div>
+                        <div class="flex items-center justify-center border-[3px] border-slate-300 flex-1 userBox l3" onclick="userClick(this)" ></div>
+                    </div>
+                    <div class="flex flex-1 ">
+                        <div class="flex items-center justify-center border-[3px] border-slate-300 flex-1 userBox l4" onclick="userClick(this)" ></div>
+                        <div class="flex items-center justify-center border-[3px] border-slate-300 flex-1 userBox l5" onclick="userClick(this)" ></div>
+                        <div class="flex items-center justify-center border-[3px] border-slate-300 flex-1 userBox l6" onclick="userClick(this)" ></div>
+                    </div>
+                    <div class="flex flex-1 ">
+                        <div class="flex items-center justify-center border-[3px] border-slate-300 flex-1 userBox l7" onclick="userClick(this)" ></div>
+                        <div class="flex items-center justify-center border-[3px] border-slate-300 flex-1 userBox l8" onclick="userClick(this)" ></div>
+                        <div class="flex items-center justify-center border-[3px] border-slate-300 flex-1 userBox l9" onclick="userClick(this)" ></div>
+                    </div>
                 </div>
-                <div class="flex flex-1 ">
-                    <div class="flex items-center justify-center border-[3px] border-slate-300 flex-1 userBox l7" onclick="userClick(this)" ></div>
-                    <div class="flex items-center justify-center border-[3px] border-slate-300 flex-1 userBox l8" onclick="userClick(this)" ></div>
-                    <div class="flex items-center justify-center border-[3px] border-slate-300 flex-1 userBox l9" onclick="userClick(this)" ></div>
-                </div>
-            </div>
-        </section>
+            </section>
         <div class="absolute left-[50%] -top-[50%] -translate-y-[50%] -translate-x-[50%] px-[22px] py-[22px] w-[400px] bg-[#fff] rounded-[11px] winnerPopup transition ">
             <div class="flex items-center justify-end ">
                 <i class="fa-solid fa-xmark text-[22px] cursor-pointer " onclick="crossBtn()" ></i>
