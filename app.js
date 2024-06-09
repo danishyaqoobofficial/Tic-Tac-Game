@@ -52,6 +52,10 @@ function userClick(e) {
             winnerPopupDiv.innerHTML = firstUser;
             winnerPopupText.innerHTML = 'User 1 is winner!'
             popupMain.classList.add('!top-[50%]');
+        }else if (l3.innerHTML == firstUser && l4.innerHTML == firstUser && l8.innerHTML == firstUser) {
+            winnerPopupDiv.innerHTML = firstUser;
+            winnerPopupText.innerHTML = 'User 1 is winner!'
+            popupMain.classList.add('!top-[50%]');
         }else if (l1.innerHTML == firstUser && l5.innerHTML == firstUser && l9.innerHTML == firstUser) {
             winnerPopupDiv.innerHTML = firstUser;
             winnerPopupText.innerHTML = 'User 1 is winner!'
